@@ -5,7 +5,9 @@ import Login from "./paginas/Login"
 import Registrar from "./paginas/Registrar"
 import OlvidePassword from "./paginas/OlvidePassword"
 import ConfirmarCuenta from "./paginas/ConfirmarCuenta"
-import NuevoPassword from "./paginas/nuevoPassword"
+import NuevoPassword from "./paginas/NuevoPassword"
+
+
 import AbministrarPaciente from "./paginas/AbministrarPaciente"
 import EditarPerfil from "./paginas/EditarPerfil"
 import CambiarPassword from "./paginas/CambiarPassword"

@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react"
 import { useParams, Link } from "react-router-dom"
-import Alerta from "../components/Alerta";
-import clienteAxios from "../config/axios";
+import Alerta from "../components/Alerta"
+import clienteAxios from "../config/axios"
 
 
-const nuevoPassword = () => {
+const NuevoPassword = () => {
 
     const [password, setPassword] = useState('')
     const [alerta, setAlerta] = useState({})
@@ -115,4 +115,4 @@ const nuevoPassword = () => {
   )
 }
 
-export default nuevoPassword
+export default NuevoPassword
